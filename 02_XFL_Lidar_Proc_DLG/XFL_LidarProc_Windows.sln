@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XFL_LidarProc_Windows", "XFL_LidarProc_Windows\XFL_LidarProc_Windows.vcxproj", "{EFE35AAB-9AF4-4A82-9989-B5DECBF2CD50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7212AB0E-5DCE-4868-A5B7-EE4C0665A2C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFE35AAB-9AF4-4A82-9989-B5DECBF2CD50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFE35AAB-9AF4-4A82-9989-B5DECBF2CD50}.Debug|Win32.Build.0 = Debug|Win32
+		{EFE35AAB-9AF4-4A82-9989-B5DECBF2CD50}.Release|Win32.ActiveCfg = Release|Win32
+		{EFE35AAB-9AF4-4A82-9989-B5DECBF2CD50}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

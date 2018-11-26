@@ -1,0 +1,74 @@
+beta
+  :2016.10.14
+  (1)在NJUST_3D_data.h的cross结构体中增加并行路口的参数
+
+-----------------------------------------------------------------
+V4.8
+  :2016.8.25
+  (1)修改NJUST_3D_data.h,增加侦查结构体NJUST_3D64_TARGET_TO_2D
+  (2)增加,NJUST_PL_3D64_COMMAND_TYPE
+  (3)修改,NJUST_PL_TO_MAP
+  (4)修改,NJUST_PL_MAP_COMMAND_TYPE
+  (5)融合NJUST_FU_OBS_TYPE中新增两种障碍物类型描述：
+	NJUST_FU_OBS_TYPE_NEGATIVE_OBS,			负障碍
+	NJUST_FU_OBS_TYPE_WATER_OBS,			水坑
+  (6)融合修改宏NJUST_FU_MAX_OBJ_NUM 为 450
+-----------------------------------------------------------------
+v4.7
+  ：2016.8.8
+  NJUST_FU_data.h增加了岔路口结构体（NJUST_FU_CROSSROAD），包含导引点坐标和导引线A、B、C参数
+-----------------------------------------------------------------
+V4.6
+  :2016.8.4
+  (1)更新了新的守护程序的头文件NJUST_IP_comm.h
+  (2)NJUST_3D64_data.h更改NJUST_3D64_GRID_TYPE中错别字NJUST_3D64_GRID_TYPE_WATRE，变成NJUST_3D64_GRID_TYPE_WATER
+-----------------------------------------------------------------
+V4.5
+  :2016.7.27
+  (1)每个H文件增加了pack和pop
+  (2)NJUST_PL_proc.h增加了__cplusplus,去掉了struct NJUST_PL_DBGINFO
+-----------------------------------------------------------------
+V4.4
+  :2016.7.21
+  (1)增加红外数据：NJUST_IR_data.h,NJUST_IR_proc.h.
+  (2)增加岔路数据：见NJUST_3D64_data.h.
+  (3)修改了NJUST_Global_Def.h,增加了在非windows下BYTE定义,增加了windows下的个别头文件包含.
+  (4)将文件名从NJUST_ALV_BYD.h改为ALV_BYD.h
+-----------------------------------------------------------------
+V4.3
+3D64线分辨率改回20x5
+map修改障碍物结构体
+添加MO命令枚举
+
+V4.1
+NJUST_3D64_data.h 水平分辨率改为20
+NJUST_3D64_data.h和NJUST_FU_data.h中障碍物描述由二维数组改为一维数组
+
+V4.0
+NJUST_3D64_data.h
+NJUST_FU_data.h
+NJUST_MAP_data.h
+NJUST_MO_data.h
+NJUST_MO_proc.h
+
+V3.4
+MAP新增一个结构体
+
+V3.3
+1. 将 NJUST_FU_DRIVABLE_FLAG 的 UNKOWN 变成0， PERMIT 变成 2
+2. 在 NJUST_FU_TRAFFIC  中，加入 Trafficsign_Direction 和 Trafficlight_Direction(即原来的Direction)
+
+V3.2
+NJUST_FU_data.h中对交通灯结构体的修改
+
+V3.0
+删除NJUST_3D_data.h和NJUST_3D_proc.h
+新增NJUST_3D64_data.h和NJUST_3D64.proc.h
+新增NJUST_3D4_data.h和NJUST_3D4.proc.h
+
+V2.3
+NJUST_MAP_data.h中新增了frameID
+NJUST_PL_data.h中新增了PL和MAP的交互命令结构体
+
+V2.2
+NJUST_MO_data.h状态结构体中新增了丢包率和每帧时间花费

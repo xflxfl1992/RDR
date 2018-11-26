@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016/8/30 15:39:50。
+     1>项目“C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\XFL_Lidar64Exe\XFL_Lidar64Exe.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\0_XFL_Lidar64CPP\XFL_Lidar64ProcFrame.cpp
+         XFL_Lidar64ProcFrame.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\Debug\XFL_Lidar64Exe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\Debug\XFL_Lidar64Exe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\Debug\XFL_Lidar64Exe.lib" /MACHINE:X86 Debug\NJUST_3D64_Encode.obj
+         Debug\NJUST_3D_main.obj
+         Debug\bmpFile.obj
+         Debug\main_Windows.obj
+         Debug\XFL_DebugFile.obj
+         Debug\XFL_Lidar64DataTransform.obj
+         Debug\XFL_Lidar64PreProc.obj
+         Debug\XFL_Lidar64ProcFrame.obj
+         Debug\XFL_Lidar64ReceiveData.obj
+         Debug\XFL_Lidar64Thread.obj
+         Debug\stdafx.obj
+         ..\0_XFL_Lidar64CPP\RmwLidarProcLib\RmwLidarProcDLL.lib
+         XFL_Lidar64Exe.vcxproj -> C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\Debug\XFL_Lidar64Exe.exe
+     1>已完成生成项目“C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\XFL_Lidar64Exe\XFL_Lidar64Exe.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.96

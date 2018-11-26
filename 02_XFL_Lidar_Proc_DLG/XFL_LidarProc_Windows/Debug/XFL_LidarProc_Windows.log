@@ -1,0 +1,27 @@
+﻿生成启动时间为 2018/11/26 21:13:12。
+     1>项目“C:\Users\LeiLei\Desktop\无人车_雷达模块\XFL_Lidar64_Final\RDR\02_XFL_Lidar_Proc_DLG\XFL_LidarProc_Windows\XFL_LidarProc_Windows.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt XFL_LidarProc_WindowsDlg.cpp
+         XFL_LidarProc_WindowsDlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LeiLei\Desktop\无人车_雷达模块\XFL_Lidar64_Final\RDR\02_XFL_Lidar_Proc_DLG\Debug\XFL_LidarProc_Windows.exe" /INCREMENTAL /NOLOGO vfw32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\LeiLei\Desktop\无人车_雷达模块\XFL_Lidar64_Final\RDR\02_XFL_Lidar_Proc_DLG\Debug\XFL_LidarProc_Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LeiLei\Desktop\无人车_雷达模块\XFL_Lidar64_Final\RDR\02_XFL_Lidar_Proc_DLG\Debug\XFL_LidarProc_Windows.lib" /MACHINE:X86 Debug\XFL_LidarProc_Windows.res
+         Debug\NJUST_3D64_Encode.obj
+         Debug\NJUST_3D_main.obj
+         Debug\bmpFile.obj
+         Debug\XFL_DebugFile.obj
+         Debug\XFL_Lidar64DataTransform.obj
+         Debug\XFL_Lidar64PreProc.obj
+         Debug\XFL_Lidar64ProcFrame.obj
+         Debug\XFL_Lidar64ReceiveData.obj
+         Debug\XFL_Lidar64Thread.obj
+         Debug\XFL_Lidar64Tools.obj
+         Debug\XFL_LidarProc_Windows.obj
+         Debug\XFL_LidarProc_WindowsDlg.obj
+         Debug\stdafx.obj
+         ..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\RmwLidarProcLib\RmwLidarProcDLL.lib
+         XFL_LidarProc_Windows.vcxproj -> C:\Users\LeiLei\Desktop\无人车_雷达模块\XFL_Lidar64_Final\RDR\02_XFL_Lidar_Proc_DLG\Debug\XFL_LidarProc_Windows.exe
+     1>已完成生成项目“C:\Users\LeiLei\Desktop\无人车_雷达模块\XFL_Lidar64_Final\RDR\02_XFL_Lidar_Proc_DLG\XFL_LidarProc_Windows\XFL_LidarProc_Windows.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.64

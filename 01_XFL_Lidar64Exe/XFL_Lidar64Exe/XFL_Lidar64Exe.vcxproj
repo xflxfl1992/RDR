@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ADEEBEA6-CE77-46C5-955D-28113ABAA68D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>XFL_Lidar64Exe</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\0_XFL_Lidar64CPP\NJUST_3D64_Encode.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\NJUST_ALV_BYD_H\ALV_BYD.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\NJUST_ALV_BYD_H\NJUST_Global_Def.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\RmwLidarProcLib\bmpFile.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\RmwLidarProcLib\RmwLidarProcLib.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\RmwLidarProcLib\RmwLidarStruct.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\XFL_Lidar64DataTransform.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\XFL_Lidar64Def.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\XFL_Lidar64Extern.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\XFL_Lidar64PreProc.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\XFL_Lidar64ProcFrame.h" />
+    <ClInclude Include="..\0_XFL_Lidar64CPP\XFL_Lidar64ReceiveData.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\0_XFL_Lidar64CPP\NJUST_3D64_Encode.cpp" />
+    <ClCompile Include="..\0_XFL_Lidar64CPP\NJUST_3D_main.cpp" />
+    <ClCompile Include="..\0_XFL_Lidar64CPP\RmwLidarProcLib\bmpFile.cpp" />
+    <ClCompile Include="..\0_XFL_Lidar64CPP\RmwLidarProcLib\main_Windows.cpp" />
+    <ClCompile Include="..\0_XFL_Lidar64CPP\XFL_DebugFile.cpp" />
+    <ClCompile Include="..\0_XFL_Lidar64CPP\XFL_Lidar64DataTransform.cpp" />
+    <ClCompile Include="..\0_XFL_Lidar64CPP\XFL_Lidar64PreProc.cpp" />
+    <ClCompile Include="..\0_XFL_Lidar64CPP\XFL_Lidar64ProcFrame.cpp" />
+    <ClCompile Include="..\0_XFL_Lidar64CPP\XFL_Lidar64ReceiveData.cpp" />
+    <ClCompile Include="..\0_XFL_Lidar64CPP\XFL_Lidar64Thread.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\0_XFL_Lidar64CPP\RmwLidarProcLib\RmwLidarProcDLL.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XFL_LidarProc_WindowsDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XFL_LidarProc_Windows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\NJUST_3D_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_DebugFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\RmwLidarProcLib\bmpFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\NJUST_3D64_Encode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64DataTransform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64PreProc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64ProcFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64ReceiveData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64Thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64Tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XFL_LidarProc_Windows.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XFL_LidarProc_WindowsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\RmwLidarProcLib\bmpFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\NJUST_3D64_Encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\RmwLidarProcLib\RmwLidarProcLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\RmwLidarProcLib\RmwLidarStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64DataTransform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64Def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64Extern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64PreProc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64ProcFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64ReceiveData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\XFL_Lidar64Tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt">
+      <Filter>库文件</Filter>
+    </None>
+    <None Include="res\XFL_LidarProc_Windows.ico">
+      <Filter>库文件</Filter>
+    </None>
+    <None Include="res\XFL_LidarProc_Windows.rc2">
+      <Filter>库文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{d3358183-5967-4014-afca-1450f3cf206d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{12fadadc-360b-4635-87a2-d818a10896c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件">
+      <UniqueIdentifier>{61eb05fd-2d0c-4ab4-8bee-afae6a7668ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XFL_LidarProc_Windows.rc">
+      <Filter>库文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\01_XFL_Lidar64Exe\0_XFL_Lidar64CPP\RmwLidarProcLib\RmwLidarProcDLL.lib">
+      <Filter>库文件</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

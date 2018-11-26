@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/8/29 1:34:54。
+     1>项目“C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\XFL_Lidar64Exe\XFL_Lidar64Exe.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\0_XFL_Lidar64CPP\RmwLidarProcLib\main_Windows.cpp ..\0_XFL_Lidar64CPP\XFL_Lidar64DataTransform.cpp ..\0_XFL_Lidar64CPP\XFL_Lidar64PreProc.cpp ..\0_XFL_Lidar64CPP\XFL_Lidar64Thread.cpp
+         main_Windows.cpp
+         XFL_Lidar64DataTransform.cpp
+         XFL_Lidar64PreProc.cpp
+         XFL_Lidar64Thread.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\Release\XFL_Lidar64Exe.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\Release\XFL_Lidar64Exe.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\Release\XFL_Lidar64Exe.lib" /MACHINE:X86 /SAFESEH Release\NJUST_3D64_Encode.obj
+         Release\NJUST_3D_main.obj
+         Release\bmpFile.obj
+         Release\main_Windows.obj
+         Release\XFL_DebugFile.obj
+         Release\XFL_Lidar64DataTransform.obj
+         Release\XFL_Lidar64PreProc.obj
+         Release\XFL_Lidar64ProcFrame.obj
+         Release\XFL_Lidar64ReceiveData.obj
+         Release\XFL_Lidar64Thread.obj
+         Release\stdafx.obj
+         ..\0_XFL_Lidar64CPP\RmwLidarProcLib\RmwLidarProcDLL.lib
+         正在生成代码
+         已完成代码的生成
+         XFL_Lidar64Exe.vcxproj -> C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\Release\XFL_Lidar64Exe.exe
+     1>已完成生成项目“C:\Users\RMW\Desktop\XFL_Lidar64\01_XFL_Lidar64Exe\XFL_Lidar64Exe\XFL_Lidar64Exe.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.56
